@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.head{
+    background-image: linear-gradient(to right,gold,orange);
+}
+.head .container .row{
+    padding: 220px 0;
+}
+.head .container .row .col-md-6 .btn{
+    margin-top: 20px;
+    margin-right: 20px;
+    background: none;
+    border-color: black;
+    color: black;
+}
+.head .container .row .col-md-6 .btn:hover{
+    background-color: black;
+    color: yellow;
+    border: none;
+}
+/*Main section*/
+.main{
+    background-image: linear-gradient(to right,gold,orange);
+}
+.main .container .row select{
+    margin: 20px 0;
+    width: 1200px;
+}
+.main .container .btn{
+    margin: 10px 0;
+    background: none;
+    border-color: black;
+    color: black;
+}
+.main .container .btn:hover{
+    background-color: black;
+    color: yellow;
+}
+.main .container .input-group{
+    margin: 20px 0;
+}
